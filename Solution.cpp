@@ -3,7 +3,7 @@
 #include<string>
 #include<vector>
 using namespace std;
-class Solution {
+class Binary_search_range {
 public:
 	vector<int> searchRange(vector<int>& nums, int target) {
 		int index = searchIndex(nums, 0, nums.size() - 1, target);
@@ -21,7 +21,6 @@ public:
 			result.push_back(x);
 			result.push_back(y);
 		}
-		//cout<<result;
 		return result;
 
 	}
